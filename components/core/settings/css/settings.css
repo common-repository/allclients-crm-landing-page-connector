@@ -1,0 +1,37 @@
+/** Add padding to right of 'Test Connection' button */
+#allclients-settings input.btn-api-cache {
+    margin-right: 10px;
+}
+
+/** Color 'Test Connection' result */
+#allclients-settings .api-test-message {
+    color: black;
+    font-weight: normal;
+}
+#allclients-settings .api-test-message.success {
+    color: #006400;
+    font-weight: bold;
+}
+#allclients-settings .api-test-message.error {
+    color: #ff0000;
+    font-weight: bold;
+}
+#allclients-settings input.masked-key {
+    background-color: #ddd;
+    color: #111;
+}
+#allclients-settings .allclients-component {
+    margin: 0; padding: 0 0 0 20px;
+    border-left: 1px solid #bbb;
+}
+.allclients-component h5:first-child {
+    margin: 5px 3px;
+}
+.allclients-component table {
+    margin: 0; padding: 0;
+}
+.allclients-component table th,
+.allclients-component table td {
+    padding: 8px 5px;
+    font-size: 12px;
+}

@@ -1,0 +1,11 @@
+.allclients-spinner {
+    background: url('../../../../../../../wp-admin/images/wpspin_light-2x.gif') no-repeat;
+    background-size: 16px 16px;
+    display: none;
+    line-height: 16px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 16px;
+    height: 16px;
+    margin: 5px 5px 0;
+}
